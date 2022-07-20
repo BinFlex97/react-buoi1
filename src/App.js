@@ -3,6 +3,7 @@ import './App.css';
 import Header from './BaiTapThucHanhLayout/Header';
 import Banner from './BaiTapThucHanhLayout/Banner';
 import Item from './BaiTapThucHanhLayout/Item';
+import Footer from './BaiTapThucHanhLayout/Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <Banner/>
       <Item/>
+      <Footer/>
     </div>
   );
 }
